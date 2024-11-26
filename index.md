@@ -3,23 +3,15 @@
 layout: home
 
 hero:
-  name: "MyBlog"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "Keyi's Blog"
+  text: "学习笔记"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Just Go
+      link: /README
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 前进
+    details: 心有所向，日复一日，必有精进
 ---
 
