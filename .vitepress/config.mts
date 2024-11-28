@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '前端', link: '/markdown-examples' },
+      { text: '前端', link: '/Prototype' },
       { text: '遥感', link: '/RemoteSencing' },
     ],
 
@@ -17,15 +17,20 @@ export default defineConfig({
       {
         text: '前端',
         items: [
-          { text: 'front-end', link: '/markdown-examples' },
-          { text: 'README', link: '/README' },
           { text: 'SEO_webBuild', link: '/SEO_webBuild' },
+          { text: 'Prototype', link: '/Prototype' },
         ]
       },
       {
         text: '遥感',
         items: [
           { text: 'Remote', link: '/RemoteSencing' },
+        ]
+      },
+      {
+        text: '关于',
+        items: [
+          { text: 'README', link: '/README' },
         ]
       }
     ],
