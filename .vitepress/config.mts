@@ -17,8 +17,9 @@ export default defineConfig({
       {
         text: '前端',
         items: [
-          { text: 'SEO_webBuild', link: '/SEO_webBuild' },
-          { text: 'Prototype', link: '/Prototype' },
+          { text: 'SEO', link: '/SEO_webBuild' },
+          { text: '原型链', link: '/Prototype' },
+          { text: '埋点', link: '/埋点' },
         ]
       },
       {
