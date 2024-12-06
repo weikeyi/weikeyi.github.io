@@ -21,6 +21,7 @@ export default defineConfig({
           { text: '原型链', link: '/Prototype' },
           { text: '埋点', link: '/埋点' },
           { text: 'Webpack', link: '/Webpack' },
+          { text: 'PWA', link: '/PWA' },
           { text: '补充知识点', link: '/补充知识点' },
         ]
       },
