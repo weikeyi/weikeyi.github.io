@@ -30,10 +30,8 @@
 service worker技术
 ```html
 <script>
-    <script>
-        //使用这个方法注册service worker
-        navigator.serviceWorker.register('./service-worker.js')
-    </script>
+    //使用这个方法注册service worker
+    navigator.serviceWorker.register('./service-worker.js')
 </script>
 ```
 #### Service worker生命周期
@@ -169,7 +167,7 @@ navigator是一个全局对象，包含了一些属性和方法，可以用来�
 ```
 2. webRTC音视频通话技术
 ```js
-    navigator.getUserMedia({audio:true,video:true},function(stream){
+    navigator.mediaDevices.getUserMedia({audio:true,video:true},function(stream){
         var video = document.querySelector('video');
         video.srcObject = stream;
         video.onloadedmetadata = function(e){

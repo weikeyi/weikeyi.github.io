@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Keyi's Blog",
   description: "学习笔记",
+  head:[
+    ['link',{rel:'icon',href:'./../assets/blog_logo.jpg'}],
+  ],
   outDir:"docs",//打包输出的目录
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
