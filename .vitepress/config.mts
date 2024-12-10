@@ -25,6 +25,8 @@ export default defineConfig({
           { text: '埋点', link: '/埋点' },
           { text: 'Webpack', link: '/Webpack' },
           { text: 'PWA', link: '/PWA' },
+          { text: 'HTTP缓存', link: '/HTTP缓存' },
+          { text: '请求头响应头', link: '/请求头响应头' },
           { text: '补充知识点', link: '/补充知识点' },
         ]
       },
