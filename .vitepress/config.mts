@@ -12,7 +12,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '前端', link: '/Prototype' },
+      { text: '前端', link: '/SEO_webBuild' },
+      { text: '后端', link: '/Express' },
+      { text: '网络', link: '/网络状态及协议' },
       { text: '遥感', link: '/RemoteSencing' },
     ],
 
@@ -25,8 +27,23 @@ export default defineConfig({
           { text: '埋点', link: '/埋点' },
           { text: 'Webpack', link: '/Webpack' },
           { text: 'PWA', link: '/PWA' },
-          { text: '网络', link: '/网络' },
           { text: '补充知识点', link: '/补充知识点' },
+        ]
+      },
+      {
+        text: '网络',
+        items: [
+          { text:'网络状态及协议',link:'/网络状态及协议'},
+          { text: 'Ajax', link: '/Ajax' },
+          { text: 'fetch', link: '/fetch' },
+          { text: 'websocket', link: '/websocket' },
+          { text: 'SSE', link: '/SSE' },
+        ]
+      },
+      {
+        text:'后端',
+        items:[
+          { text: 'Express', link: '/Express' },
         ]
       },
       {
